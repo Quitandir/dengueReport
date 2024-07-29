@@ -4,8 +4,14 @@ import Header from "../../components/Header";
 import { useState } from "react";
 import Image from 'next/image';
 import map2 from '../../public/map2.jpeg'
-import StyledLabel from './styles';
 import Footer from '../../components/Footer';
+import styled from 'styled-components';
+
+const StyledLabel = styled(FormLabel)`
+    :focus {
+        color: rgba(0, 0, 0, 0.6);
+    }
+`
 
 export default function Form() {
 
