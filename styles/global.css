@@ -1,0 +1,46 @@
+:root {
+  --text-color: black;
+  --background-color: #eeeeee;
+  --background-secondary: linear-gradient(130deg, rgba(194,226,241,1) 0%, rgba(154,197,219,1) 35%, rgba(61,114,141,1) 100%);
+  --fun-green: #005e35;
+  --fern: #6db46e;
+
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family:
+    -apple-system,
+    BlinkMacSystemFont,
+    Segoe UI,
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    Fira Sans,
+    Droid Sans,
+    Helvetica Neue,
+    sans-serif;
+  line-height: 1.6;
+  font-size: 18px;
+  background-color: var(--background-color);
+  color: var(--text-color);
+  min-height: 100vh;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: var(--background-color);
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
