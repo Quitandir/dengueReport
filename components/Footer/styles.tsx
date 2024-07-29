@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const StyledFooter = styled.div`
+const StyledFooter = styled.div`
     display: flex;
     align-items: center;
     justify-content: right;
@@ -9,4 +9,6 @@ export const StyledFooter = styled.div`
     margin-top: auto;
     width: 100vw;
     gap: 1em
-`   
+`
+
+export default StyledFooter

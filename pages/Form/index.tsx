@@ -4,7 +4,7 @@ import Header from "../../components/Header";
 import { useState } from "react";
 import Image from 'next/image';
 import map2 from '../../public/map2.jpeg'
-import { StyledLabel, StyledRadio } from './styles';
+import { StyledLabel } from './styles';
 import Footer from '../../components/Footer';
 
 export default function Form() {
@@ -65,8 +65,8 @@ export default function Form() {
                         style={{ flexDirection: 'row', justifyContent: 'space-evenly' }}
                         
                     >
-                        <FormControlLabel value="adress" control={<StyledRadio />} label="Endereço" />
-                        <FormControlLabel value="location" control={<StyledRadio />} label="Localização" />
+                        <FormControlLabel value="adress" control={<Radio />} label="Endereço" />
+                        <FormControlLabel value="location" control={<Radio />} label="Localização" />
                     </RadioGroup>
 
                     {adressLocation == 'adress' ? <TextField
@@ -81,7 +81,7 @@ export default function Form() {
                     }
 
 
-                    <FormLabel id="demo-radio-buttons-group-label">Esse espaço com foco de dengue é público ou privado?</FormLabel>
+                    <StyledLabel id="demo-radio-buttons-group-label">Esse espaço com foco de dengue é público ou privado?</StyledLabel>
                     <RadioGroup
                         aria-labelledby="demo-radio-buttons-group-label"
                         name="radio-buttons-group"
