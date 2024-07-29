@@ -1,4 +1,4 @@
-import { FormLabel, Radio } from '@mui/material';
+import { FormLabel } from '@mui/material';
 import styled from 'styled-components';
 
 export const StyledLabel = styled(FormLabel)`
