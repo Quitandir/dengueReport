@@ -4,7 +4,7 @@ import Header from "../../components/Header";
 import { useState } from "react";
 import Image from 'next/image';
 import map2 from '../../public/map2.jpeg'
-import { StyledLabel } from './styles';
+import StyledLabel from './styles';
 import Footer from '../../components/Footer';
 
 export default function Form() {
