@@ -28,6 +28,9 @@ body {
   background-color: var(--background-color);
   color: var(--text-color);
   min-height: 100vh;
+  background-image: url(../public/bg2.jpg);
+  background-position: top;
+  background-repeat: repeat-y;
 
 }
 
